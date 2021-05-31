@@ -76,13 +76,14 @@
 \subfile{header.tex}
 \thispagestyle{empty}
 
+%\clearpage
 \tableofcontents
 
 \noindent\makebox[\linewidth]{\color{linescolor} \rule[-0.2cm]{0.85\paperwidth}{1pt}}
 \noindent\makebox[\linewidth]{\color{linescolor} \rule[0.3cm]{0.85\paperwidth}{1.2 pt}}
-%\pagebreak
+%\pagebreak[4]
 
-%\newpage
+%\clearpage
 
 \begin{multicols}{2}
 \section{Introduction}
@@ -90,7 +91,7 @@
 Nanoparticle research has greatly expanded over the past decades. 
 In particular, a major effort was put in the study and control of the shape and of the size of nanoparticles because of their influence over the electro-magnetic and optical properties of the nanoparticles.
 
-Gold nanoparticles are nanoparticles of special interest due to their prominent optical resonance in the visible range.
+Among noble metal nanoparticles, the Gold nanoparticles are of special interest due to their prominent optical resonance in the visible range.
 
 The Au nanoparticles' interaction with light is strongly dictated by their environment, size and physical dimensions. Oscillating electric fields of a light ray propagating near a colloidal nanoparticle interact with the free electrons causing an oscillation of electron charge that is in resonance with the frequency of visible light. These resonant oscillations are known as surface plasmons. 
 
@@ -112,9 +113,7 @@ In the end, in \textbf{Section \ref{sec:SEM}}, we used a scanning electron micro
 \noindent
 Colloidal spherical gold nanoparticles can be synthesized via the Turkevich method: gold atoms are decomposed from a gold acid precursor forming a supersaturated solution and thus initiating the nucleation of the nanoparticles aggregating and growing under controlled constant temperature.
 
-This method is able to archive particles sizes of $10 \div 20 \,\nano\meter$ of diameters.
-
-\clearpage
+This method allowed us to synthetize nanoparticles of $10 \div 20 \,\nano\meter$ of diameters.
 
 \subsection{Turkevich method}
 The main steps which determine the Turkevich method can be summed up as follows:
@@ -138,8 +137,6 @@ The result we obtained can be seen in \textbf{Figure \ref{fig:sample}}.
     \label{fig:sample}
 \end{figure}
 
-\clearpage
-
 \section{Optical Characterization}
 \label{sec:optic_char}
 \noindent
@@ -154,9 +151,9 @@ line. At this point the trasmittance $T$ is measured and then converted, using t
 \end{equation}
 
 \noindent
-where $z=1\, cm$ is the length of the sample, $\sigma_{ext}$ is the Mie extinction cross section and $\rho$ is the density of the nanoparticles. \\
+where $z=1\, cm$ is the length of the sample, $\sigma_{ext}$ is the Mie extinction cross section and $\rho$ is the density of the nanoparticles.
 
-The experimental data we obtained are plotted in \textbf{Figure \ref{fig:exp_data}}. As can be seen, the spectrum exhibits a resonant behavior, and data near the peak can be used to estimate various properties of the system. \\
+The experimental data we obtained are plotted in \textbf{Figure \ref{fig:exp_data}}. As can be seen, the spectrum exhibits a resonant behavior, and data near the peak can be used to estimate various properties of the system.
 
 \begin{figure}[H]
     \centering
@@ -166,90 +163,115 @@ The experimental data we obtained are plotted in \textbf{Figure \ref{fig:exp_dat
 \end{figure}
 
 The label \textit{Acid spectrum} of \textbf{Figure \ref{fig:exp_data}} refers to the fact that in the first place we measured the optical spectrum of the medium in which nanoparticles were immersed, (which was water and tetrachloroauric acid),  and then we acquired the gold
-nanoparticle solution spectrum (\textit{Au spectrum} label). \\
+nanoparticle solution spectrum (\textit{Au spectrum} label).
 
-The following optical analysis has been perfromed in the $400 \div 800\,\nano\meter$ range.
-
-%---------------------------------------------------------------------------------------------------------------
+The following optical analysis has been performed in the $400 \div 800\,\nano\meter$ range.
 
 \subsection{Model}
-We can model this spectrum using the extinction cross section coming from Mie Theory in dipolar approximation, upon some assumptions:
-\begin{itemize}
-    \item we assume that the system is monodispersed with respect to the particle radius;
-    \item the nanoparticle dimension is much smaller than the injected wavelengths: $R \ll \lambda$;
-    \item we assume a regime of independent nanoparticles: particles are not affected by each other scattering field;
-    \item the medium dielectric function is real: $\epsilon_m(\omega) \in \mathbb{R}$;
-    \item the nanoparticle dielectric function is size-dependent according to the following equation:
-    
-    \noindent where $\omega_P$ is the plasmon frequency of bulk gold, $\Gamma(R) = \Gamma_{\infty} + \pi v_{Fermi}/4R$ is the size-dependent electrons relaxation frequency according to Drude model and $\Gamma_{\infty}$ is the relaxation frequency in bulk gold.
-\end{itemize}
+In order to apply the Mie theory in the dipolar approximation to the collected experimental data and in order to compute the extinction cross section we assumed some hypothesis on our physical system: first of all we supposed that the radius of the Au nanoparticles was much smaller with respect to the incident wavelengths ($R\ll \lambda$) and that the medium dielectric function was real ($\epsilon_m(\omega) \in \mathbb{R}$: non-absorbing matrix hypothesis). 
 
-
-%%%%%%%%%%%%%%%%
+Furthermore, we supposed that the nanoparticles had spherical shape, that the system was monodispersed with respect to the particle radius and that the gold nanoparticles had a non real and size-dependent dielectric function $\epsilon(\omega) = \epsilon_1(\omega) +i\epsilon_2(\omega)$\footnote{In first approximation we can assume that dielectric function to be equal to the one computed by Johnson and Christy, see \textbf{Figure \ref{fig:size_correction}}. In addition, $\omega=c/\lambda$ and $c$ is the speed of light.}, described by the following equation:
 
     \begin{small}
-    \begin{equation}
+    \begin{equation*}
     \begin{split}
        \epsilon(\omega,R) & = \epsilon(\omega,\infty) + \omega_P^2 \left(\frac{1}{\omega^2+\Gamma_{bulk}^2}-\frac{1}{\omega^2+ \Gamma(R)^2}\right) \\ 
      & -i\frac{\omega_P^2}{\omega} \left(\frac{\Gamma_{bulk}}{\omega^2+\Gamma_{bulk}^2}-\frac{\Gamma(R)}{\omega^2+ \Gamma(R)^2}\right)
-      \end{split} 
-    \end{equation}
+      \end{split}
+      \label{eq:epsilon}
+    \end{equation*}
     \end{small}
 
+\noindent
+where $\epsilon(\omega, \infty)$ is the bulk dielectric function, $\omega_P$ is the plasmon frequency of bulk gold and $\Gamma$ is the typical damping time for the electrons.\\
 
-\gio{electron concentration of gold from \cite{Kittel2004}}
+\noindent
+In particular, according to the Drude model, 
+
+\[\Gamma(R)=\Gamma_{bulk}+q \frac{v_{F}}{R}\]
+
+\noindent
+where $q=\pi/4$ in the assumption of spherical nanoparticles, $v_F$ is the Fermi velocity for gold electrons, $R$ is the nanoparticle's radius, $\Gamma(R)$ is the size-dependent electrons relaxation frequency and $\Gamma_{bulk}$ is the relaxation frequency in bulk gold. 
+
+In \textbf{Table \ref{tab:bulk_const}} we report the bulk constants of gold used in this work. 
 
 \begin{table}[H]
     \centering
-    \caption{Bulk constants of gold at room temperature \cite{Kittel2004}, vfermi da \cite{Ashcroft76}.}
+    \caption{Bulk constants of gold at room temperature.}
     \begin{tabular}{ccc}
     \toprule
-      \bm{$\omega_p$} [Hz]  & \bm{$\Gamma_{bulk}$} [Hz] & \bm{$v_{Fermi}$} [m/s] \\
+      \bm{$\omega_p$}  \cite{Kittel2004}  & \bm{$\Gamma_{bulk}$}  \cite{Kittel2004} & \bm{$v_{F}$} \cite{Ashcroft76} \\
     \midrule
-      $1.38 \cdot 10^{16}$   & $1.08 \cdot 10^{14}$ & $1.40 \cdot 10^6$ \\
+      $1.38 \cdot 10^{16} \,\text{Hz} $   & $1.08 \cdot 10^{14} \,\text{Hz}$ & $1.40 \cdot 10^6 \, \meter/\text{s}$ \\
     \bottomrule
     \end{tabular}
     \label{tab:bulk_const}
 \end{table}
 
-
-
 \noindent
-Size correction for $\epsilon$. From the Drude model for the electrons of the metal one can derive the following:
+In order to obtain the size-dependent dielectric function equation we have to apply a semi-classical correction: from the Drude model for the electrons we can derive that
 $$
 \begin{array}{l}
 \epsilon_{1}(\omega, R)=\epsilon_{1}(\infty)+\omega_{p}^{2}\left(\frac{1}{\omega^{2}+\Gamma_{bulk}^{2}}-\frac{1}{\omega^{2}+\Gamma(R)^{2}}\right) \\
 \epsilon_{2}(\omega, R)=\epsilon_{2}(\infty)-\frac{\omega_{p}^{2}}{\omega}\left(\frac{\Gamma_{bulk}}{\omega^{2}+\Gamma_{bulk}^{2}}-\frac{\Gamma(R)}{\omega^{2}+\Gamma(R)^{2}}\right)
 \end{array}
 $$
-where $\omega=c / \lambda, R$ is the radius of the nanoparticle, $\omega_{p}$ is the bulk plasmon frequency and $\Gamma$ is the typical damping time for electrons. With semiclassical computations one can find that
-$$
-\Gamma(R)=\Gamma_{bulk}+q \frac{v_{F}}{R}
-$$
 
-where $v_{F}$ is the Fermi velocity for electrons and $q=\pi / 4$ in the assumption of spherical nanoparticles. The size correction of the dielectric function is illustrated in \textbf{Figure \ref{fig:size_correction}} for different values of the radius.
+\noindent
+We can observe the effects of the size correction of the dielectric function in \textbf{Figure \ref{fig:size_correction}} for different values of the radius. With the plot label \textit{Johnson and Christy} we refer to non size corrected values of the dielectric function.
 
+From the second part of Equation \ref{eq:absorbance} we can express the absorbance $A$ as a function of the Mie extinction cross section as follows.
+
+\noindent
+Given that (quasi-static field approximation):
 \begin{equation}
-    A=C\rho\epsilon_m^{3/2}R^3\frac{\epsilon_2}{(\epsilon_1 + 2\epsilon_m)^2 + \epsilon_2^2}
-\end{equation}
-with $C=\log_{10}(e)\frac{9}{c}\frac{4\pi}{3}$
-
-\gio{scrivi che abbiamo diviso in due parti, una variando R e rho e con em costante e poi per la coppia R em} \\
-
-We notice that a model with a size-independent value for gold dielectric constant $\epsilon(\omega)$ is useless, because the equation \ref{eq:absorbance} contains the product of $R$ and $\rho$, so the parameters cannot be computed independently. Hence, we directly use a size-dependent equation, considering $\varepsilon_1(\omega,R)$ and $\varepsilon_2(\omega,R)$.
-
-In order to simulate the experimental absorbance, we vary the values of the three parameters R, $\rho$ and $\epsilon_m$ inside suitable ranges as follow:
-
-\begin{equation}
-    \chi^2=\left(\frac{A_{exp} - A_{sim}}{\sigma_{A_{exp}}}\right)^2
+\sigma_{e x t}=9 \frac{\omega}{c} \varepsilon_{m}{ }^{3 / 2} \mathrm{~V} \frac{\varepsilon_{2}}{\left(\varepsilon_{1}+2 \varepsilon_{m}\right)^{2}+\left(\varepsilon_{2}\right)^{2}}
 \end{equation}
 
-with $\sigma_{A_{exp}}=1/A_{exp}$
+\noindent
+where $V$ is the nanoparticles' volume, we can use \textbf{Equation \ref{eq:absorbance}} and the spherical nanoparticles approximation to write $A$ as:
 
+\begin{equation}
+    A=K\epsilon_m^{3/2}R^3\rho\frac{\epsilon_2}{(\epsilon_1 + 2\epsilon_m)^2 + (\epsilon_2)^2}
+    \label{eq:ass}
+\end{equation}
+with $K=\log_{10}(e)\frac{9}{c}\frac{4\pi}{3}z$.
+
+\end{multicols}
+
+\begin{figure}[H]
+    \begin{minipage}[l]{1.0\columnwidth}
+    \centering
+    \includegraphics[width=\textwidth]{image/data/size_correction.pdf}
+    \caption{Size correction of the dielectric function for different values of the radius. Johnson and Christhy label refers to non size corrected dielectric values.}
+    \label{fig:size_correction}
+    \end{minipage}
+\end{figure}
+
+\begin{multicols}{2}
+
+Due to the fact of the presence of the $R^3\rho$ term in \textbf{Equation \ref{eq:ass}}, we have performed the optical analysis of the colloidal Au nanoparticles using from the beginning the size-dependent equation for the dielectric function i.e. using $\epsilon_1(\omega)$ and $\epsilon_2(\omega)$.
+
+At this point we can model our system by varying its three free parameters ($\epsilon_m, \rho, R$).
+
+In order to find the best-fit parameters, we began our analysis by varying $R$ and by keeping $\rho$ and $\epsilon_m$ constant obtaining the fit for the couple ($R,\rho$). At this point we estimated the stability basin of the best fit result by computing the minimized $\chi^2$, i.e.:
+
+ \begin{equation}
+        \chi^2 = (\frac{A_{exp}-A_{sim}}{\sigma_{A_{exp}}})^2, \quad \sigma_{A_{exp}} =\frac{1}{A_{exp}} 
+\end{equation}
+
+where $\sigma_{A_{exp}}$ is the error associated to the experimental absorbance\footnote{We choose this value for the error in order to give a different weight to the spectrum values and eventually obtain a better agreement between data and simulation.}. 
+
+
+To obtain information on the stability of the best-fit parameters,
+calculate and plot the $\chi^{2}$ values for different couples $(R, \varrho)$ and $\left(R, \varepsilon_{m}\right)$
+and estimate the stability basin of your best fit result
 
 Where $\epsilon_m = 1.33^2$ which is the refractive inde of water to the square
 
-In order to simulate the experimental absorbance, we vary the values of the three parameters R, $\rho$ and $\epsilon_m$ inside suitable ranges as follow:
+
+\newpage
+
 \begin{itemize}
     \item at first, we vary R and $\rho$ keeping $\epsilon_m$ constant. Thus, we obtain the fit for the couple $(R,\rho)$; 
     \item then, we find the values minimizing the $\chi^2$ function, which is defined as follow:
@@ -264,6 +286,8 @@ We compute the filling fraction $f=\rho V$ in order to verify the assumption of 
 
 \subsection{Results}
 
+$f=2.66\cdot 10^{-6}$\\
+------------------------------------------
 At first, we simulate the spectrum for the couple $(R,\rho)$, fixing as dielectric constant for the medium the water one, $\epsilon_m = 1.33^2$. As we expect an average radius between $5$ and $10$ nm, we vary $R$ inside the range $[3:15]$ nm, whereas for $\rho$, we make a preliminar trial in order to find its magnitude order. A suitable range obtained is $[1,10]\cdot 10^{-9} \text{nm}^{-3}$. The simulated spectrum obtained from this first fit has not a good agreement with the experimental one, as illustrated in Fig.\ref{fig:optical_results}. \\
 Then, we make the fit for $(R,\epsilon_m)$ couple. We vary $R$ in the same range as before, while for $\epsilon_m$ we choose $[1.5:2.5]$.
 From this second fit, we get a value for $\epsilon_m^*$ quite different than the one we fixed in the $(R,\rho)$ fit. This improves the agreement with the experimental spectrum (Fig.\ref{fig:optical_results}), even if there is still a poor fit quality for low $\lambda$. This may be due to the non-absorbing medium approximation: as shown in Fig.\ref{fig:exp_spectra}, the absorbance for low wavelengths is quite high.
@@ -290,14 +314,7 @@ Eventually, we repeat the analysis by assuming a log-normal size distribution. I
 
 \end{multicols}
 
-\begin{figure}[H]
-    \begin{minipage}[l]{1.0\columnwidth}
-    \centering
-    \includegraphics[width=\textwidth]{image/data/size_correction.pdf}
-    \caption{Size correction of the dielectric function for different values of the radius. Johnson and Christhy label refers to non size corrected dielectric values. \gio{aumenta caratteri immagine - ok?}}
-    \label{fig:size_correction}
-    \end{minipage}
-\end{figure}
+
 
 \begin{multicols}{2}
 \gio{qui scrivo}
@@ -325,6 +342,21 @@ Eventually, we repeat the analysis by assuming a log-normal size distribution. I
 \end{figure}
 
 \begin{multicols}{2}
+\subsection{GANs Theory}
+
+\begin{equation*}
+\sigma_{ext}^{\text{Gans}} = \frac{\omega}{3c} \epsilon_m^{3/2}V_{0} \sum^{3}_{j=1}{\frac{\epsilon_2/L_j^2}{[\epsilon_1 + \epsilon_m(1-L_j)/L_j]^2 + \epsilon_2^2}}
+\end{equation*}
+
+The polarization coefficients $L_j$ are defined as 
+
+\begin{subequations}
+\begin{align}
+  L_1 &= \frac{1-e^2}{e^2} \left[\frac{1}{2e}\ln{\left(\frac{1+e}{1-e}\right)}-1\right] \\
+  L_2 &= L_3 = \frac{1-L_1}{2} 
+\end{align}
+\end{subequations}
+where $e$ is the eccentricity.
 
 \section{XRD Analysis}
 \label{sec:XRD}

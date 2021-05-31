@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.6)  31 MAY 2021 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.6)  31 MAY 2021 17:15
 entering extended mode
 **"c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/report.tex"
 ("c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/report.tex"
@@ -862,7 +862,7 @@ Package biblatex Info: ... file 'report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 73.
 Package biblatex Info: Reference segment=0 on input line 73.
  ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\header.tex"
-<image/logo/logo_DFA.jpg, id=55, 557.2017pt x 219.7008pt>
+<image/logo/logo_DFA.jpg, id=59, 557.2017pt x 219.7008pt>
 File: image/logo/logo_DFA.jpg Graphic file (type jpg)
 <use image/logo/logo_DFA.jpg>
 Package pdftex.def Info: image/logo/logo_DFA.jpg  used on input line 5.
@@ -870,7 +870,7 @@ Package pdftex.def Info: image/logo/logo_DFA.jpg  used on input line 5.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<image/logo/logo_800anni.png, id=56, 803.0pt x 228.855pt>
+<image/logo/logo_800anni.png, id=60, 803.0pt x 228.855pt>
 File: image/logo/logo_800anni.png Graphic file (type png)
 <use image/logo/logo_800anni.png>
 Package pdftex.def Info: image/logo/logo_800anni.png  used on input line 9.
@@ -885,102 +885,86 @@ Package pdftex.def Info: image/logo/logo_800anni.png  used on input line 9.
  [2]
 
 pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/turkevich.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<image/data/turkevich.pdf, id=101, 168.12813pt x 261.97874pt>
+<image/data/turkevich.pdf, id=106, 168.12813pt x 261.97874pt>
 File: image/data/turkevich.pdf Graphic file (type pdf)
 <use image/data/turkevich.pdf>
-Package pdftex.def Info: image/data/turkevich.pdf  used on input line 136.
+Package pdftex.def Info: image/data/turkevich.pdf  used on input line 135.
 (pdftex.def)             Requested size: 99.12245pt x 154.45418pt.
-[3 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/turkevich.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-<image/data/exp_data.pdf, id=124, 722.7pt x 578.16pt>
+<image/data/exp_data.pdf, id=109, 722.7pt x 578.16pt>
 File: image/data/exp_data.pdf Graphic file (type pdf)
 <use image/data/exp_data.pdf>
-Package pdftex.def Info: image/data/exp_data.pdf  used on input line 163.
+Package pdftex.def Info: image/data/exp_data.pdf  used on input line 160.
 (pdftex.def)             Requested size: 220.27362pt x 176.21944pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 181.
-(C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/bbold\ubbold.fd) [4 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/exp_data.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[3 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/turkevich.pdf>]
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 171.
+ (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/bbold\ubbold.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
-[5]
-
-LaTeX Warning: Reference `fig:optical_results' on page 6 undefined on input line 267.
-
-
-LaTeX Warning: Reference `fig:optical_results' on page 6 undefined on input line 269.
-
-
-LaTeX Warning: Reference `fig:exp_spectra' on page 6 undefined on input line 269.
-
-
-LaTeX Warning: Reference `fig:optical_results' on page 6 undefined on input line 276.
-
-
-LaTeX Warning: Reference `fig:size_distribution' on page 6 undefined on input line 289.
-
-<image/data/size_correction.pdf, id=180, 1445.4pt x 578.16pt>
+[4 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/exp_data.pdf>]
+<image/data/size_correction.pdf, id=182, 1445.4pt x 578.16pt>
 File: image/data/size_correction.pdf Graphic file (type pdf)
 <use image/data/size_correction.pdf>
-Package pdftex.def Info: image/data/size_correction.pdf  used on input line 296.
+Package pdftex.def Info: image/data/size_correction.pdf  used on input line 245.
 (pdftex.def)             Requested size: 469.0pt x 187.59982pt.
+ [5 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/size_correction.pdf>] [6]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `fig:optical_results' on page 7 undefined on input line 291.
 
- [6]
-<image/data/1_fit.pdf, id=185, 722.7pt x 578.16pt>
+
+LaTeX Warning: Reference `fig:optical_results' on page 7 undefined on input line 293.
+
+
+LaTeX Warning: Reference `fig:exp_spectra' on page 7 undefined on input line 293.
+
+
+LaTeX Warning: Reference `fig:optical_results' on page 7 undefined on input line 300.
+
+
+LaTeX Warning: Reference `fig:size_distribution' on page 7 undefined on input line 313.
+
+
+Overfull \vbox (6.96478pt too high) has occurred while \output is active []
+
+ [7]
+<image/data/1_fit.pdf, id=219, 722.7pt x 578.16pt>
 File: image/data/1_fit.pdf Graphic file (type pdf)
 <use image/data/1_fit.pdf>
-Package pdftex.def Info: image/data/1_fit.pdf  used on input line 310.
+Package pdftex.def Info: image/data/1_fit.pdf  used on input line 327.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-<image/data/1_chisquare.pdf, id=186, 722.7pt x 578.16pt>
+<image/data/1_chisquare.pdf, id=220, 722.7pt x 578.16pt>
 File: image/data/1_chisquare.pdf Graphic file (type pdf)
 <use image/data/1_chisquare.pdf>
-Package pdftex.def Info: image/data/1_chisquare.pdf  used on input line 312.
+Package pdftex.def Info: image/data/1_chisquare.pdf  used on input line 329.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-<image/data/2_fit.pdf, id=187, 722.7pt x 578.16pt>
+<image/data/2_fit.pdf, id=221, 722.7pt x 578.16pt>
 File: image/data/2_fit.pdf Graphic file (type pdf)
 <use image/data/2_fit.pdf>
-Package pdftex.def Info: image/data/2_fit.pdf  used on input line 320.
+Package pdftex.def Info: image/data/2_fit.pdf  used on input line 337.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-<image/data/2_chisquare.pdf, id=188, 722.7pt x 578.16pt>
+<image/data/2_chisquare.pdf, id=222, 722.7pt x 578.16pt>
 File: image/data/2_chisquare.pdf Graphic file (type pdf)
 <use image/data/2_chisquare.pdf>
-Package pdftex.def Info: image/data/2_chisquare.pdf  used on input line 322.
+Package pdftex.def Info: image/data/2_chisquare.pdf  used on input line 339.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/size_correction.pdf> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_fit.pdf
-
-pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_fit.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_chisquare.pdf
+ [8 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_fit.pdf> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_chisquare.pdf
 
 pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_chisquare.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [8 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_fit.pdf> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare.pdf
+> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_fit.pdf
+
+pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_fit.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare.pdf
 
 pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
+>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
 []\OT1/cmr/m/n/10 (+20) Charles Kit-tel. \OT1/cmr/m/it/10 (+20) In-tro-duc-tion to Solid
  []
 
-[9] ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.aux")
+[10] ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.aux")
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 49353655121ADE0BA98F0AA904B40C59;711.
+(rerunfilecheck)             Checksum: ED95C860CD7097E6DE908E9EE94C78C7;772.
 
 
 LaTeX Warning: There were undefined references.
@@ -990,17 +974,17 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20980 strings out of 479799
- 365824 string characters out of 2869723
- 1219381 words of memory out of 3000000
- 37379 multiletter control sequences out of 15000+200000
- 553271 words of font info for 158 fonts, out of 3000000 for 9000
+ 21030 strings out of 479799
+ 366404 string characters out of 2869723
+ 1225374 words of memory out of 3000000
+ 37398 multiletter control sequences out of 15000+200000
+ 555962 words of font info for 174 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,17n,76p,1307b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\picco\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi600\bbold10.pk>{C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.pdf" (9 pages, 719216 bytes).
+ 66i,17n,76p,1307b,1631s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\picco\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi600\bbold10.pk>{C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.pdf" (10 pages, 746642 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 45206 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 47262 words of extra memory for PDF output out of 51595 (max. 10000000)
 

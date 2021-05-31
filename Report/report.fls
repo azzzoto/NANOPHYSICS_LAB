@@ -1046,8 +1046,16 @@ INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\tex\latex\bbold\ubbold.fd
 INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold10.tfm
 INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold7.tfm
 INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold5.tfm
-INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold9.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm8.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold8.tfm
 INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold6.tfm
+INPUT C:\Users\picco\AppData\Local\MiKTeX\fonts\tfm\public\bbold\bbold9.tfm
 INPUT c:\Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\image\data\size_correction.pdf
 INPUT c:\Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\image\data\size_correction.pdf
 INPUT c:\Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\image\data\size_correction.pdf
@@ -1091,6 +1099,8 @@ INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
@@ -1109,6 +1119,8 @@ INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Users\picco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
