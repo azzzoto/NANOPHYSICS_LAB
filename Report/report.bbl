@@ -48,6 +48,50 @@
       \field{title}{{S}olid {S}tate {P}hysics}
       \field{year}{1976}
     \endentry
+    \entry{Johnson1972}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c9dc10413918689b413c600d90a00048}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=95b89ad912640b9464d311e6df1628a9}{%
+           family={Christy},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{fullhash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{bibnamehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{authorbibnamehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{authornamehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{authorfullhash}{a643dbe3b2117352255dd033e36b8768}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Optical Constants of the Noble Metals}
+      \field{volume}{6}
+      \field{year}{1972}
+      \field{pages}{4370\bibrangedash 4379}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1103/physrevb.6.4370
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/physrevb.6.4370
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/physrevb.6.4370
+      \endverb
+    \endentry
     \entry{Kittel2004}{book}{}
       \name{author}{1}{}{%
         {{hash=2c6d8b1aea5118299879670708080fe1}{%

@@ -2350,9 +2350,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">mybib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Kittel2004</bcf:citekey>
+    <bcf:citekey order="1">Johnson1972</bcf:citekey>
     <bcf:citekey order="2">Kittel2004</bcf:citekey>
-    <bcf:citekey order="3">Ashcroft76</bcf:citekey>
+    <bcf:citekey order="3">Johnson1972</bcf:citekey>
+    <bcf:citekey order="4">Ashcroft76</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
