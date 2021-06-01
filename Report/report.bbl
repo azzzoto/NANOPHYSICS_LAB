@@ -1,0 +1,125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Ashcroft76}{book}{}
+      \name{author}{2}{}{%
+        {{hash=61250c14134c39a8345b4a271c7df68e}{%
+           family={Ashcroft},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=b5f10f77e7a1e023c7eacaca5e364c2c}{%
+           family={Mermin},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Holt-Saunders}%
+      }
+      \strng{namehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{fullhash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{bibnamehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{authorbibnamehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{authornamehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{authorfullhash}{f724088525104ebfbe2bb91ea281c2e7}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{S}olid {S}tate {P}hysics}
+      \field{year}{1976}
+    \endentry
+    \entry{Johnson1972}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c9dc10413918689b413c600d90a00048}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=95b89ad912640b9464d311e6df1628a9}{%
+           family={Christy},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{fullhash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{bibnamehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{authorbibnamehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{authornamehash}{a643dbe3b2117352255dd033e36b8768}
+      \strng{authorfullhash}{a643dbe3b2117352255dd033e36b8768}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Optical Constants of the Noble Metals}
+      \field{volume}{6}
+      \field{year}{1972}
+      \field{pages}{4370\bibrangedash 4379}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1103/physrevb.6.4370
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/physrevb.6.4370
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/physrevb.6.4370
+      \endverb
+    \endentry
+    \entry{Kittel2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2c6d8b1aea5118299879670708080fe1}{%
+           family={Kittel},
+           familyi={K\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{fullhash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{bibnamehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{authorbibnamehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{authornamehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{authorfullhash}{2c6d8b1aea5118299879670708080fe1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{isbn}{9780471415268}
+      \field{title}{Introduction to Solid State Physics}
+      \field{year}{2004}
+      \keyw{kittel solid_state_physics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
