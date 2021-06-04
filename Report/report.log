@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.6)  1 JUN 2021 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.6)  4 JUN 2021 15:46
 entering extended mode
 **"c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/report.tex"
 ("c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/report.tex"
@@ -167,6 +167,9 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldsymbols=\mathgroup7
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
+) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/preprint\balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen160
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks24
@@ -188,14 +191,14 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \lst@gtempboxa=\box52
 \lst@token=\toks25
 \lst@length=\count197
-\lst@currlwidth=\dimen160
+\lst@currlwidth=\dimen161
 \lst@column=\count198
 \lst@pos=\count199
-\lst@lostspace=\dimen161
-\lst@width=\dimen162
+\lst@lostspace=\dimen162
+\lst@width=\dimen163
 \lst@newlines=\count266
 \lst@lineno=\count267
-\lst@maxwidth=\dimen163
+\lst@maxwidth=\dimen164
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count268
@@ -213,21 +216,21 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 Package multicol Warning: May not work with the twocolumn option on input line 141.
 
 \mult@box=\box54
-\multicol@leftmargin=\dimen164
+\multicol@leftmargin=\dimen165
 \c@unbalance=\count271
 \c@collectmore=\count272
 \doublecol@number=\count273
 \multicoltolerance=\count274
 \multicolpretolerance=\count275
-\full@width=\dimen165
-\page@free=\dimen166
-\premulticols=\dimen167
-\postmulticols=\dimen168
+\full@width=\dimen166
+\page@free=\dimen167
+\premulticols=\dimen168
+\postmulticols=\dimen169
 \multicolsep=\skip57
 \multicolbaselineskip=\skip58
 \partial@page=\box55
 \last@line=\box56
-\maxbalancingoverflow=\dimen169
+\maxbalancingoverflow=\dimen170
 \mult@rightbox=\box57
 \mult@grightbox=\box58
 \mult@gfirstbox=\box59
@@ -272,9 +275,9 @@ Package multicol Warning: May not work with the twocolumn option on input line 1
 \c@minrows=\count276
 \c@columnbadness=\count277
 \c@finalcolumnbadness=\count278
-\last@try=\dimen170
-\multicolovershoot=\dimen171
-\multicolundershoot=\dimen172
+\last@try=\dimen171
+\multicolovershoot=\dimen172
+\multicolundershoot=\dimen173
 \mult@nat@firstbox=\box98
 \colbreak@box=\box99
 \mc@col@check@num=\count279
@@ -296,7 +299,7 @@ Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip68
 \multirow@cntb=\count280
 \multirow@dima=\skip69
-\bigstrutjot=\dimen173
+\bigstrutjot=\dimen174
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
@@ -306,7 +309,7 @@ Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
 \MT@toks=\toks26
 \MT@count=\count281
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen174
+\MT@outer@kern=\dimen175
 LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
 \MT@listname@count=\count282
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
@@ -336,22 +339,22 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box100
 )
-\tc@llx=\dimen175
-\tc@lly=\dimen176
-\tc@urx=\dimen177
-\tc@ury=\dimen178
+\tc@llx=\dimen176
+\tc@lly=\dimen177
+\tc@urx=\dimen178
+\tc@ury=\dimen179
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen179
-\adjbox@Height=\dimen180
-\adjbox@Depth=\dimen181
-\adjbox@Totalheight=\dimen182
-\adjbox@pwidth=\dimen183
-\adjbox@pheight=\dimen184
-\adjbox@pdepth=\dimen185
-\adjbox@ptotalheight=\dimen186
+\adjbox@Width=\dimen180
+\adjbox@Height=\dimen181
+\adjbox@Depth=\dimen182
+\adjbox@Totalheight=\dimen183
+\adjbox@pwidth=\dimen184
+\adjbox@pheight=\dimen185
+\adjbox@pdepth=\dimen186
+\adjbox@ptotalheight=\dimen187
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count284
@@ -359,8 +362,8 @@ Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box101
 \sift@deathcycles=\count285
-\@vwid@loff=\dimen187
-\@vwid@roff=\dimen188
+\@vwid@loff=\dimen188
+\@vwid@roff=\dimen189
 )) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip71
@@ -369,7 +372,7 @@ For additional information on amsmath, use the `?' option.
 (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen189
+\pmbraise@=\dimen190
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -385,7 +388,7 @@ LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box102
 \strutbox@=\box103
-\big@size=\dimen190
+\big@size=\dimen191
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count291
@@ -398,12 +401,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \column@=\count296
 \maxfields@=\count297
 \andhelp@=\toks30
-\eqnshift@=\dimen191
-\alignsep@=\dimen192
-\tagshift@=\dimen193
-\tagwidth@=\dimen194
-\totwidth@=\dimen195
-\lineht@=\dimen196
+\eqnshift@=\dimen192
+\alignsep@=\dimen193
+\tagshift@=\dimen194
+\tagwidth@=\dimen195
+\totwidth@=\dimen196
+\lineht@=\dimen197
 \@envbody=\toks31
 \multlinegap=\skip72
 \multlinetaggap=\skip73
@@ -413,8 +416,8 @@ LaTeX Info: Redefining \] on input line 2924.
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen197
-\WF@size=\dimen198
+\wrapoverhang=\dimen198
+\WF@size=\dimen199
 \c@WF@wrappedlines=\count298
 \WF@box=\box104
 \WF@everypar=\toks33
@@ -454,7 +457,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen199
+\@linkdim=\dimen256
 \Hy@linkcounter=\count303
 \Hy@pagecounter=\count304
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -476,15 +479,15 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count306
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen256
+\XeTeXLinkMargin=\dimen257
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count307
-\Field@Width=\dimen257
-\Fld@charsize=\dimen258
+\Field@Width=\dimen258
+\Fld@charsize=\dimen259
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -527,23 +530,23 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 Package: bbold 1994/04/06 Bbold symbol package
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen259
-\lightrulewidth=\dimen260
-\cmidrulewidth=\dimen261
-\belowrulesep=\dimen262
-\belowbottomsep=\dimen263
-\aboverulesep=\dimen264
-\abovetopsep=\dimen265
-\cmidrulesep=\dimen266
-\cmidrulekern=\dimen267
-\defaultaddspace=\dimen268
+\heavyrulewidth=\dimen260
+\lightrulewidth=\dimen261
+\cmidrulewidth=\dimen262
+\belowrulesep=\dimen263
+\belowbottomsep=\dimen264
+\aboverulesep=\dimen265
+\abovetopsep=\dimen266
+\cmidrulesep=\dimen267
+\cmidrulekern=\dimen268
+\defaultaddspace=\dimen269
 \@cmidla=\count313
 \@cmidlb=\count314
-\@aboverulesep=\dimen269
-\@belowrulesep=\dimen270
+\@aboverulesep=\dimen270
+\@belowrulesep=\dimen271
 \@thisruleclass=\count315
 \@lastruleclass=\count316
-\@thisrulewidth=\dimen271
+\@thisrulewidth=\dimen272
 ) (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
@@ -768,32 +771,32 @@ File: biblatex.cfg
  ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.aux")
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count444
-\scratchdimen=\dimen272
+\scratchdimen=\dimen273
 \scratchbox=\box107
 \nofMPsegments=\count445
 \nofMParguments=\count446
 \everyMPshowfont=\toks37
 \MPscratchCnt=\count447
-\MPscratchDim=\dimen273
+\MPscratchDim=\dimen274
 \MPnumerator=\count448
 \makeMPintoPDFobject=\count449
 \everyMPtoPDFconversion=\toks38
@@ -815,21 +818,21 @@ Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count450
-LaTeX Info: Redefining \microtypecontext on input line 73.
+LaTeX Info: Redefining \microtypecontext on input line 74.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 73.
+LaTeX Info: Redefining \showhyphens on input line 74.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 74.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -839,9 +842,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count451
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
  ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.out") ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.out")
 \@outlinefile=\write4
 \openout4 = `report.out'.
@@ -859,10 +862,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.bbl")
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
+Package biblatex Info: Reference section=0 on input line 74.
+Package biblatex Info: Reference segment=0 on input line 74.
  ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\header.tex"
-<image/logo/logo_DFA.jpg, id=55, 557.2017pt x 219.7008pt>
+<image/logo/logo_DFA.jpg, id=59, 557.2017pt x 219.7008pt>
 File: image/logo/logo_DFA.jpg Graphic file (type jpg)
 <use image/logo/logo_DFA.jpg>
 Package pdftex.def Info: image/logo/logo_DFA.jpg  used on input line 5.
@@ -870,7 +873,7 @@ Package pdftex.def Info: image/logo/logo_DFA.jpg  used on input line 5.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<image/logo/logo_800anni.png, id=56, 803.0pt x 228.855pt>
+<image/logo/logo_800anni.png, id=60, 803.0pt x 228.855pt>
 File: image/logo/logo_800anni.png Graphic file (type png)
 <use image/logo/logo_800anni.png>
 Package pdftex.def Info: image/logo/logo_800anni.png  used on input line 9.
@@ -885,54 +888,56 @@ Package pdftex.def Info: image/logo/logo_800anni.png  used on input line 9.
  [2]
 
 pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/turkevich.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<image/data/turkevich.pdf, id=101, 168.12813pt x 261.97874pt>
+<image/data/turkevich.pdf, id=106, 168.12813pt x 261.97874pt>
 File: image/data/turkevich.pdf Graphic file (type pdf)
 <use image/data/turkevich.pdf>
-Package pdftex.def Info: image/data/turkevich.pdf  used on input line 136.
+Package pdftex.def Info: image/data/turkevich.pdf  used on input line 138.
 (pdftex.def)             Requested size: 110.13681pt x 171.61531pt.
-<image/data/exp_data.pdf, id=104, 722.7pt x 578.16pt>
+<image/data/exp_data.pdf, id=109, 722.7pt x 578.16pt>
 File: image/data/exp_data.pdf Graphic file (type pdf)
 <use image/data/exp_data.pdf>
-Package pdftex.def Info: image/data/exp_data.pdf  used on input line 160.
+Package pdftex.def Info: image/data/exp_data.pdf  used on input line 162.
 (pdftex.def)             Requested size: 220.27362pt x 176.21944pt.
 [3 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/turkevich.pdf>]
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 171.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 173.
  (C:\Users\picco\AppData\Local\Programs\MiKTeX\tex/latex/bbold\ubbold.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
-[4 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/exp_data.pdf>]
-<image/data/size_correction.pdf, id=179, 1445.4pt x 578.16pt>
-File: image/data/size_correction.pdf Graphic file (type pdf)
-<use image/data/size_correction.pdf>
-Package pdftex.def Info: image/data/size_correction.pdf  used on input line 245.
-(pdftex.def)             Requested size: 469.0pt x 187.59982pt.
-
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 5 might be wrong on input line 269.
+(multicol)                Footnotes on page 4 might be wrong on input line 224.
 
-[5 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/size_correction.pdf>] [6]
-<image/data/1_fit.pdf, id=221, 722.7pt x 578.16pt>
+[4 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/exp_data.pdf>]
+<image/data/size_correction.pdf, id=183, 1445.4pt x 578.16pt>
+File: image/data/size_correction.pdf Graphic file (type pdf)
+<use image/data/size_correction.pdf>
+Package pdftex.def Info: image/data/size_correction.pdf  used on input line 247.
+(pdftex.def)             Requested size: 469.0pt x 187.59982pt.
+ [5 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/size_correction.pdf>]
+Overfull \vbox (0.61559pt too high) has occurred while \output is active []
+
+ [6]
+<image/data/1_fit.pdf, id=225, 722.7pt x 578.16pt>
 File: image/data/1_fit.pdf Graphic file (type pdf)
 <use image/data/1_fit.pdf>
-Package pdftex.def Info: image/data/1_fit.pdf  used on input line 321.
+Package pdftex.def Info: image/data/1_fit.pdf  used on input line 324.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-<image/data/1_chisquare.pdf, id=222, 722.7pt x 578.16pt>
+<image/data/1_chisquare.pdf, id=226, 722.7pt x 578.16pt>
 File: image/data/1_chisquare.pdf Graphic file (type pdf)
 <use image/data/1_chisquare.pdf>
-Package pdftex.def Info: image/data/1_chisquare.pdf  used on input line 323.
+Package pdftex.def Info: image/data/1_chisquare.pdf  used on input line 326.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-<image/data/2_fit.pdf, id=223, 722.7pt x 578.16pt>
+<image/data/2_fit.pdf, id=227, 722.7pt x 578.16pt>
 File: image/data/2_fit.pdf Graphic file (type pdf)
 <use image/data/2_fit.pdf>
-Package pdftex.def Info: image/data/2_fit.pdf  used on input line 331.
+Package pdftex.def Info: image/data/2_fit.pdf  used on input line 334.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
-<image/data/2_chisquare.pdf, id=224, 722.7pt x 578.16pt>
+<image/data/2_chisquare.pdf, id=228, 722.7pt x 578.16pt>
 File: image/data/2_chisquare.pdf Graphic file (type pdf)
 <use image/data/2_chisquare.pdf>
-Package pdftex.def Info: image/data/2_chisquare.pdf  used on input line 333.
+Package pdftex.def Info: image/data/2_chisquare.pdf  used on input line 336.
 (pdftex.def)             Requested size: 234.5pt x 187.59982pt.
  [7 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_fit.pdf> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_chisquare.pdf
 
@@ -943,44 +948,65 @@ pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi
 > <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare.pdf
 
 pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+>] [8]
+<image/data/1_fit_GANS.pdf, id=316, 722.7pt x 578.16pt>
+File: image/data/1_fit_GANS.pdf Graphic file (type pdf)
+<use image/data/1_fit_GANS.pdf>
+Package pdftex.def Info: image/data/1_fit_GANS.pdf  used on input line 395.
+(pdftex.def)             Requested size: 234.5pt x 187.59982pt.
+<image/data/1_chisquare_GANS.pdf, id=317, 722.7pt x 578.16pt>
+File: image/data/1_chisquare_GANS.pdf Graphic file (type pdf)
+<use image/data/1_chisquare_GANS.pdf>
+Package pdftex.def Info: image/data/1_chisquare_GANS.pdf  used on input line 397.
+(pdftex.def)             Requested size: 234.5pt x 187.59982pt.
+<image/data/2_fit_GANS.pdf, id=318, 722.7pt x 578.16pt>
+File: image/data/2_fit_GANS.pdf Graphic file (type pdf)
+<use image/data/2_fit_GANS.pdf>
+Package pdftex.def Info: image/data/2_fit_GANS.pdf  used on input line 405.
+(pdftex.def)             Requested size: 234.5pt x 187.59982pt.
+<image/data/2_chisquare_GANS.pdf, id=319, 722.7pt x 578.16pt>
+File: image/data/2_chisquare_GANS.pdf Graphic file (type pdf)
+<use image/data/2_chisquare_GANS.pdf>
+Package pdftex.def Info: image/data/2_chisquare_GANS.pdf  used on input line 407.
+(pdftex.def)             Requested size: 234.5pt x 187.59982pt.
+ [9 <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_fit_GANS.pdf> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_chisquare_GANS.pdf
 
- []
+pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/1_chisquare_GANS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_fit_GANS.pdf
 
+pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_fit_GANS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare_GANS.pdf
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-
- []
-
+pdfTeX warning: pdflatex (file c:/Users/picco/OneDrive - Università degli Studi di Padova/Desktop/Università/Magistrale/Introduction to Nanophysics/LABORATORIO/NANOPHYSICS_LAB/Report/image/data/2_chisquare_GANS.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [10]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []\OT1/cmr/m/n/10 (+20) Charles Kit-tel. \OT1/cmr/m/it/10 (+20) In-tro-duc-tion to Solid
  []
 
-[8] ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.aux")
+[11] ("c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.aux")
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 49353655121ADE0BA98F0AA904B40C59;711.
+(rerunfilecheck)             Checksum: 6460587EA07A945883A9EBF6EFE8F074;791.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21049 strings out of 479799
- 366649 string characters out of 2869723
- 1219534 words of memory out of 3000000
- 37405 multiletter control sequences out of 15000+200000
- 556844 words of font info for 182 fonts, out of 3000000 for 9000
+ 21106 strings out of 479799
+ 368089 string characters out of 2869723
+ 1225231 words of memory out of 3000000
+ 37445 multiletter control sequences out of 15000+200000
+ 556526 words of font info for 180 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,17n,76p,1307b,1633s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\picco\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi600\bbold10.pk>{C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/picco/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.pdf" (8 pages, 775601 bytes).
+Output written on "c:/Users\picco\OneDrive - Università degli Studi di Padova\Desktop\Università\Magistrale\Introduction to Nanophysics\LABORATORIO\NANOPHYSICS_LAB\Report\report.pdf" (11 pages, 915072 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 47766 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 47794 words of extra memory for PDF output out of 51595 (max. 10000000)
 

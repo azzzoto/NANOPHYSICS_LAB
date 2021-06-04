@@ -13,6 +13,7 @@
 \usepackage{eso-pic}
 \usepackage{url}
 \usepackage{bm}
+\usepackage{balance}
 \usepackage{afterpage}
 \usepackage{parskip}
 \usepackage{listings}
@@ -105,22 +106,23 @@ The optical analysis of the gold nanoparticles allowed us to obtain informations
 
 We performed then independent measurements on the average size of spherical gold nanoparticles using the Grazing incidence X-Ray Diffraction (XRD): we estimated the diffraction of X-rays photons, coming from \(\text{Cu}_{k_\alpha}\), forming an angle of \(2\theta\) with respect to the incoming beam (\textbf{Section \ref{sec:XRD}}).
 
-In the end, in \textbf{Section \ref{sec:SEM}}, we used a scanning electron microscope (SEM) to perform a statistical size distribution of the system.
+In the end, in \textbf{Section \ref{sec:SEM}}, we used a scanning electron microscope (SEM) to perform a statistical size distribution of the system, while \textbf{Section \ref{sec:conclusions}} summarizes the results of our work.
 
+\newpage
 
 \section{Synthesis of Au nanoparticles}
 \label{sec:synthesis}
 \noindent
 Colloidal spherical gold nanoparticles can be synthesized via the Turkevich method: gold atoms are decomposed from a gold acid precursor forming a supersaturated solution and thus initiating the nucleation of the nanoparticles aggregating and growing under controlled constant temperature.
 
-This method allowed us to synthesize nanoparticles of the order of $1 \div 10 \,\nano\meter$ of diameters. \gio{non so se è proprio vero ma fa comodo per la nostra analisi lol}
+This method allowed us to synthesize nanoparticles of the order of $5 \div 20 \,\nano\meter$ of diameters. \gio{non so se è proprio vero ma, forse si può togleire questa frase lol}
 
 \subsection{Turkevich method}
 The main steps which determine the Turkevich method can be summed up as follows:
 
 \begin{enumerate}
     \item Pour in a beaker 9.5 mL of gold hydroclorate solution (HAuCl$_4$);
-    \item Cover the beaker with the watch glass;
+    \item Cover the beaker with a watch glass;
     \item Suspend the beaker in the crystallizer filled with normal water on the hot plate and rise the temperature up to 100\degreecelsius;
     \item Activate the stirrer in order to obtain an homogeneous distribution of temperature and concentration;
     \item Heat the sodium citrate solution (Na$_3$C$_6$H$_5$O$_7$) up to 100\degreecelsius;
@@ -170,7 +172,7 @@ The following optical analysis has been performed in the $400 \div 800\,\nano\me
 \subsection{Model}
 In order to apply the Mie theory in the dipolar approximation to the collected experimental data and in order to compute the extinction cross section we assumed some hypothesis on our physical system: first of all we supposed that the radius of the Au nanoparticles was much smaller with respect to the incident wavelengths ($R\ll \lambda$) and that the medium dielectric function was real ($\epsilon_m(\omega) \in \mathbb{R}$: non-absorbing matrix hypothesis). 
 
-Furthermore, we supposed that the nanoparticles had spherical shape, that the system was monodispersed with respect to the particle radius and that the gold nanoparticles had a non real and size-dependent dielectric function $\epsilon(\omega) = \epsilon_1(\omega) +i\epsilon_2(\omega)$\footnote{In first approximation it is possible to assume that the dielectric function can be equal to the one computed by Johnson and Christy in \cite{Johnson1972}, see \textbf{Figure \ref{fig:size_correction}}. In addition, $\omega=c/\lambda$ and $c$ is the speed of light.}, described by the following equation:
+Furthermore, we supposed that the nanoparticles had spherical shape, that the system was monodispersed with respect to the particle radius and that the gold nanoparticles had a non real and size-dependent dielectric function $\epsilon(\omega,R) = \epsilon_1(\omega,R) +i\epsilon_2(\omega,R)$\footnote{In first approximation it is possible to assume that the dielectric function can be equal to the one computed by Johnson and Christy in \cite{Johnson1972}, where $\epsilon(\omega) = \epsilon_1(\omega) +i\epsilon_2(\omega)$, see \textbf{Figure \ref{fig:size_correction}}. In addition, $\omega=c/\lambda$ and $c$ is the speed of light.}, described by the following equation:
 
     \begin{small}
     \begin{equation*}
@@ -261,17 +263,18 @@ Then, we estimated the stability basin of the best fit result by computing the m
         {\min}_{R,\rho} \left\{\chi^2 (R,\rho) \right\} =\min_{R,\rho} \left(\frac{A_{exp}-A_{sim}}{\sigma_{A_{exp}}}\right)^2 
 \end{equation}
 %\noindent
-where $\sigma_{A_{exp}}={A_{exp}}^{-1}$ is the error of the experimental data of the absorbance\footnote{We choose this value for the error in order to obtain a better agreement between data and simulation by giving a different weight to the spectrum values.}. 
+where $\sigma_{A_{exp}}={A_{exp}}^{-1}$ is the error of the experimental data of the absorbance.%\footnote{We choose this value for the error in order to obtain a better agreement between data and simulation by giving a different weight to the spectrum values.}
 
 From the first part of the optical analysis we were able to obtain the best value for $\rho$, namely $\rho^*$, by minimizing the $\chi^2$ function.
 
 We proceeded then by repeating the steps previously described by fixing the value of the nanoparticles' density to be $\rho\overset{!}{=}\rho^*$. Then, by varying and fitting $R$ and $\epsilon_m$ and by minimizing the $\chi^2$ function with respect to ($R,\epsilon_m$), we obtained the last two best-fit parameters $R^*$ and $\epsilon_m^*$.
 
 \subsection{Results}
+\label{sec:risultati}
 
 In this section we report the results obtained in the analysis presented in \textbf{Section \ref{sec:optic_char}.1}.
 In the first place we verified the validity of the non-interacting nanoparticles assumption by computing the filling fraction $f=\rho^* V$. This approximation is valid if $f<1$ and since we estimated the filling fractions as
-\[f=2.66\cdot 10^{-6}\]
+\[f=2.16\cdot 10^{-6}\]
 we can state that the contribution due to interacting nanoparticles is negligible.
 
 In order to simulate the spectrum of the couple $(R,\rho)$ we fixed the medium dielectric constant to be equal to 
@@ -289,7 +292,7 @@ In \textbf{Figure \ref{fig:r_rho}b} is instead reported the $\chi^2$ map as a fu
 \[\rho = \rho^*=9.909\cdot10^{-9}\,\nano\meter^{-3}.\]
 
 \noindent
-The second shows plot that the agreement with the experimental spectrum is improved, even if the fit remains quite poor in the $\lambda \in [400:475]\, \nano\meter$ region due to the high value of the absorbance.
+The second plot shows that the agreement with the experimental spectrum is improved, even if the fit remains quite poor in the $\lambda \in [400:475]\, \nano\meter$ region due to the high value of the absorbance.
 
 The \( (R,\epsilon_m) \) plot of the $\chi^2$ function, presented in \textbf{Figure \ref{fig:r_epsm}b}, shows that the stability region is more focused, inducing an $\epsilon_m^*$ value which is probably more precise with respect to $\rho^*$.
 
@@ -314,7 +317,7 @@ and by introducing a new free parameter $B\overset{!}{\geq} 0$\,\footnote{We imp
 
 
 \end{multicols}
-%\newpage
+\newpage
 \begin{figure}[H]
 \centering
 \subfloat[][{Simulated spectrum obtained by varying the parameters ($R,\rho$) and fit with the experimental data.}]
@@ -334,11 +337,16 @@ and by introducing a new free parameter $B\overset{!}{\geq} 0$\,\footnote{We imp
 \caption{Simulation, fit and plot of the $\chi^2$ function for the ($R,\epsilon_m$) couple.}
 \label{fig:r_epsm}
 \end{figure}
-
+\newpage
 
 \begin{multicols}{2}
+In the end, despite of the fact that the particles' radius is less then 20 times smaller than the incoming wavelength (which proves the validity of the $R\ll \lambda$ hypothesis), the computations reported in this section have been performed  using the dipolar approximation only: this model could have been improved by taking into account higher multipolarities.
 
-It also could have been possible to refine the model used in this analysis by using Gans' theory instead of the Mie's one. Gans' theory considers nanoparticles to be oblate ellipsoids\footnote{In this way it's possible to drop the spherical Au nanoparticles assumption.} introducing a new parameter $e$ called eccentricity.
+\subsubsection{Gans' Model Analysis}
+\paragraph{Model}
+The results presented in \textbf{Section \ref{sec:risultati}} can be improved by refining the model used in this analysis by means of the Gans' theory (instead of the Mie's one).
+
+Gans' theory considers nanoparticles to be oblate ellipsoids\footnote{In this way it's possible to drop the spherical Au nanoparticles assumption.} introducing a new parameter $e$ called eccentricity.
 
 \noindent
 The new model computes the extinction cross-section as an ensemble of ellipsoidal particles with spatial random orientation:
@@ -354,11 +362,55 @@ L_{1}&=\frac{1-e^{2}}{e^{2}}\left[\frac{1}{2 e} \ln \left(\frac{1+e}{1-e}\right)
 L_{2}&=L_{3}=\frac{1-L_{1}}{2}
 \end{align*}
 
-In the end, despite of the fact that the particle's radius is less then 20 times smaller than the incoming wavelength (which proves the validity of the $R\ll \lambda$ hypothesis), the computations reported in this section have been performed  using the dipolar approximation: this model could have been improved by taking into account higher multipolarities.  \\
+\paragraph{Results}
+Given the data presented in \textbf{Section \ref{sec:SEM}} (i.e. the average of the major
+and minor axis of the two dimensional representation of the particles $a_1$ and $a_2$\footnote{We assumed that the third axis $a_3=a_2$.}) we were able to estimate the aspect ratio $a_R$ as  $a_1/a_2$ resulting in:
 
---------------------------------------------- \\
+\[a_R=1.298\pm 0.008\]
 
-\gio{Nel fit/$\chi^2$ di Figura 5 avevo ottenuto come stima $\epsilon_m=1.827$ che è molto meglio di quella che ho messo ora, ma il fit faceva più schifo e soprattuto la mappa del $\chi^2$ non era corretta in quanto la stima della costante dielettrica è darta dalla zona di minimo $\chi^2$ ma quest'ultima era tagliata fuori in parte in quanto il range che avevo scelto era 4-7 nm e la zona è compresa tra 3.2 e 4.5 come potete vedere. Che cosa volete che faccia? Migliore stima di $\epsilon_m$ e grafici brutti o grafici corretti e $\epsilon$ brutta? In caso si può pensare di barare e fare un misto mare }
+At this point we were able to compute\footnote{The error associated to estimated measurement of the eccentricity has been computed by means of the propagation of errors.} the eccentricity $e$ and to use Gans' model, namely:
+
+\[e:=\sqrt{1-\left(\frac{1}{a_R}\right)^2} = 0.6378 \pm 0.0009\]
+
+We can notice from \textbf{Figure \ref{fig:r_rho_GANS}a} and \textbf{Figure \ref{fig:r_epsm_GANS}a } that the fit quality is slightly improved with respect to the plots shown in \textbf{Figure \ref{fig:r_epsm}a} and \textbf{Figure \ref{fig:r_epsm}a}. In particular, the experimental values of absorbance in the lower frequency range ($\lambda \in [400:475]\, \nano\meter$) are better represented by the simulation with respect to the ones in \textbf{Section \ref{sec:risultati}}.
+
+The better agreement between the experimental spectrum and the model may be due  to the fact that ellipsoidal particle give a different position of the resonance for each length of the axis and so the width of the peak can be better covered by the two resonances of our model. \textbf{Figure \ref{fig:r_rho_GANS}b} and \textbf{Figure \ref{fig:r_epsm_GANS}b} show the $\chi^2$ map  for the ($R,\rho$) and ($R,\epsilon_m$) couple of parameters respectively.
+
+After performing the Gans analysis, the parameters which describe better our physical system are:
+
+\begin{align*}
+    R^*_{G}&=(7.0\pm 0.9)\,\nano\meter \\
+    \rho^*_{G}&=(2.0\pm 0.3)\cdot 10^{-9}\,\nano\meter^{-3} \\
+    \epsilon_{m,G}^* &= 1.9 \pm 0.1
+\end{align*}
+As the value of $R^*_G$ increased with respect to $R^*$, consequently the value of $\rho_G^*$ is lower than $\rho^*$.
+
+In the end, we can notice that the best value of $\epsilon_m$ improved: $\sqrt{\epsilon_{m,G} ^*} := n_{water}^*$ differs from the true value $n_{water,G}=1.33$ by $4\%$.
+
+\end{multicols}
+\newpage
+\begin{figure}[H]
+\centering
+\subfloat[][{Simulated spectrum obtained by varying the parameters ($R,\rho$) and fit with the experimental data using Gans' theory.}]
+{\includegraphics[width=.5\textwidth]{image/data/1_fit_GANS.pdf}} 
+\subfloat[][{$\chi^2$ function for ($R,\rho$) using Gans' theory.}]
+{\includegraphics[width=.5\textwidth]{image/data/1_chisquare_GANS.pdf}} \\
+\caption{Simulation, fit and plot of the $\chi^2$ function for the ($R,\rho$) couple using Gans' theory.}
+\label{fig:r_rho_GANS}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\subfloat[][{Simulated spectrum obtained by varying the parameters ($R,\epsilon_m$) and fit with the experimental data using Gans' theory.}]
+{\includegraphics[width=.5\textwidth]{image/data/2_fit_GANS.pdf}} 
+\subfloat[][{$\chi^2$ function for ($R,\epsilon_m$) using Gans' theory.}]
+{\includegraphics[width=.5\textwidth]{image/data/2_chisquare_GANS.pdf}} \\
+\caption{Simulation, fit and plot of the $\chi^2$ function for the ($R,\epsilon_m$) couple using Gans' theory.}
+\label{fig:r_epsm_GANS}
+\end{figure}
+\newpage
+
+\begin{multicols}{2}
 
 \section{XRD Analysis}
 
@@ -376,9 +428,11 @@ In the end, despite of the fact that the particle's radius is less then 20 times
 \subsection{Results}
 
 \section{Conclusions}
+\label{sec:conclusions}
+
+\clearpage
 
 \printbibliography
-
 \end{multicols}
 
 \end{document}
