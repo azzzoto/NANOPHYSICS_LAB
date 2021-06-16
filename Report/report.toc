@@ -26,8 +26,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}SEM Analysis}{10}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Method}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Imaging with SEM}{10}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2}Results}{10}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusions}{10}{section.6}%
+\contentsline {section}{\numberline {6}Conclusions}{11}{section.6}%

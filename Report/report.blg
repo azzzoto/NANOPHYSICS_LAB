@@ -1,15 +1,18 @@
-[1] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [1] Config.pm:315> INFO - Logfile is 'report.blg'
-[346] biber-MSWIN64:330> INFO - === 
-[389] Biber.pm:415> INFO - Reading 'report.bcf'
-[757] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
-[799] Biber.pm:4334> INFO - Processing section 0
-[836] Biber.pm:4523> INFO - Looking for bibtex format file 'mybib.bib' for section 0
-[848] bibtex.pm:1682> INFO - LaTeX decoding ...
-[882] bibtex.pm:1494> INFO - Found BibTeX data source 'mybib.bib'
-[1095] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1095] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1095] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1096] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[1118] bbl.pm:651> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[1122] bbl.pm:754> INFO - Output to report.bbl
+[386] biber-MSWIN64:330> INFO - === 
+[455] Biber.pm:415> INFO - Reading 'report.bcf'
+[724] Biber.pm:952> INFO - Found 5 citekeys in bib section 0
+[762] Biber.pm:4334> INFO - Processing section 0
+[796] Biber.pm:4523> INFO - Looking for bibtex format file 'mybib.bib' for section 0
+[818] bibtex.pm:1682> INFO - LaTeX decoding ...
+[883] bibtex.pm:1494> INFO - Found BibTeX data source 'mybib.bib'
+[1064] Utils.pm:395> WARN - I didn't find a database entry for 'Kimling2006' (section 0)
+[1065] Utils.pm:395> WARN - I didn't find a database entry for 'mattei' (section 0)
+[1087] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1087] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1087] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1087] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[1105] bbl.pm:651> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[1110] bbl.pm:754> INFO - Output to report.bbl
+[1112] Biber.pm:128> INFO - WARNINGS: 2
