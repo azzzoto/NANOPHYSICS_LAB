@@ -45,6 +45,7 @@
 \pagestyle{fancy} 
 
 \newcommand{\gio}[1]{\textcolor{blue}{\textit{#1}}}
+\newcommand{\mean}[1]{\left\langle #1 \right\rangle}
 
 \definecolor{graytext}{HTML}{414141}
 \definecolor{linkcolor}{rgb}{0,0,0.65} %hyperlink
@@ -61,7 +62,7 @@
 \chead{}
 
 \fancyfoot[R]{Page \thepage}
-\fancyfoot[L]{\textit{Nanofabrication, Characterization and Modelling of Au Nanoparticles}}
+\fancyfoot[L]{\textit{Nanofabrication, Characterization and Modelling of Colloidal Au Nanoparticles}}
 
 \renewcommand{\headrulewidth}{0.2pt}
 \renewcommand{\footrulewidth}{0.1pt}
@@ -90,7 +91,7 @@
 \section{Introduction}
 \noindent
 Nanoparticle research has greatly expanded over the past decades. 
-In particular, a major effort was put in the study and in the control of the shape and of the size of nanoparticles because of their influence over the electro-magnetic and optical properties of the nanoparticles.
+In particular, a major effort was put in the study and in the control of the shape and of the size of nanoparticles because of their influence over the electro-magnetic and optical properties of the nanoparticles themselves.
 
 Among noble metal nanoparticles, the Gold nanoparticles are of special interest due to their prominent optical resonance in the visible range.
 
@@ -113,7 +114,7 @@ In the end, in \textbf{Section \ref{sec:SEM}}, we used a scanning electron micro
 \section{Synthesis of Au nanoparticles}
 \label{sec:synthesis}
 \noindent
-Colloidal spherical gold nanoparticles can be synthesized via the Turkevich method: gold atoms are decomposed from a gold acid precursor forming a supersaturated solution and thus initiating the nucleation of the nanoparticles aggregating and growing under controlled constant temperature.
+Colloidal spherical gold nanoparticles can be synthesized via the Turkevich method: gold atoms are decomposed from a gold acid precursor forming a supersaturated solution and thus initiating the nucleation of the nanoparticles aggregating and growing under controlled constant temperature \cite{Kimling2006}.
 
 This method allowed us to synthesize nanoparticles of the order of $5 \div 20 \,\nano\meter$ of diameters. \gio{non so se è proprio vero ma, forse si può togleire questa frase lol}
 
@@ -145,7 +146,7 @@ The result we obtained can be seen in \textbf{Figure \ref{fig:sample}}.
 \noindent
 In order to acquire the optical spectrum of the colloidal Au nanoparticles we used a JASCO double beam spectrophotometer, which shines light in a continuous spectrum in the Vis-NIR range ($300\div 2700\, \nano\meter $).
 
-To verify the presence of the localized surface plasmon resonance (LSPR) we acquired the absorbance spectrum: the spectrophotometer shoots on the sample a single wavelength at a time which is selected by a monocromator and then the same procedure is repeated for a second beam, which provides a baseline. At this point the transmittance $T$ is measured and then converted, using the Lambert-Beer equation (Equation \ref{eq:absorbance}), into absorbance data $A$: 
+To verify the presence of the localized surface plasmon resonance (LSPR) we acquired the absorbance spectrum: the spectrophotometer shoots on the sample a single wavelength at a time which is selected by a monocromator and then the same procedure is repeated for a second beam, which provides a baseline. At this point the transmittance $T$ is measured and then converted, using the \textit{Lambert-Beer} equation (\textbf{Equation \ref{eq:absorbance}}), into absorbance data $A$: 
 
 \begin{equation}
     A:=\log_{10}\frac{1}{T}=\log_{10}(e)z \sigma_{ext} \rho
@@ -155,7 +156,7 @@ To verify the presence of the localized surface plasmon resonance (LSPR) we acqu
 \noindent
 where $z=1\, cm$ is the length of the sample, $\sigma_{ext}$ is the Mie extinction cross section and $\rho$ is the density of the nanoparticles.
 
-The experimental data we obtained are plotted in \textbf{Figure \ref{fig:exp_data}}. As can be seen, the spectrum exhibits a resonant behavior and the data near the peak can be used to estimate the properties of the system.
+The experimental data we obtained are plotted in \textbf{Figure \ref{fig:exp_data}}. As we can see, the spectrum exhibits a resonant behavior and the data near the peak can be used to estimate the properties of the system.
 
 \begin{figure}[H]
     \centering
@@ -225,9 +226,9 @@ We can observe the effects of the size correction of the dielectric function in 
 Using the second part of \textbf{Equation \ref{eq:absorbance}} we can express the absorbance $A$ as a function of the Mie extinction cross section as follows.
 
 \noindent
-Assuming a quasi-static field approximation and given that
+Assuming a quasi-static field approximation and given that (\cite{Kimling2006})
 \begin{equation}
-\sigma_{e x t}=9 \frac{\omega}{c} \varepsilon_{m}{ }^{3 / 2} \mathrm{~V} \frac{\varepsilon_{2}}{\left(\varepsilon_{1}+2 \varepsilon_{m}\right)^{2}+\left(\varepsilon_{2}\right)^{2}}
+\sigma_{e x t}=9 \frac{\omega}{c} \epsilon_{m}{ }^{3 / 2} {V} \frac{\epsilon_{2}}{\left(\epsilon_{1}+2 \epsilon_{m}\right)^{2}+\left(\epsilon_{2}\right)^{2}}
 \end{equation}
 
 \noindent
@@ -252,18 +253,18 @@ with $K=\log_{10}(e)\frac{9}{c}\frac{4\pi}{3}z$.
 
 \begin{multicols}{2}
 
-Due to the presence of the $R^3\rho$ term in \textbf{Equation \ref{eq:ass}}, we have performed the optical analysis of the colloidal Au nanoparticles using from the beginning the size-dependent equation for the dielectric function i.e. using $\epsilon_1(\omega)$ and $\epsilon_2(\omega)$.
+Due to the presence of the $R^3\rho$ term in \textbf{Equation \ref{eq:ass}}, we have performed the optical analysis of the colloidal Au nanoparticles using from the beginning the size-dependent equation for the dielectric function i.e. using $\epsilon_1(\omega,R)$ and $\epsilon_2(\omega,R)$.
 
 At this point we can model our system by varying its three free parameters ($\epsilon_m, \rho, R$). 
 
 In order to find the best-fit parameters, we began our analysis by varying $R$ and by keeping $\rho$ and $\epsilon_m$ constant obtaining the fit for the couple ($R,\rho$). 
 
-Then, we estimated the stability basin of the best fit result by computing the minimized $\chi^2$, i.e. by computing:
+Then, we estimated the stability basin of the best fit result computing the minimized $\chi^2$, i.e. by computing:
 \begin{equation}
         {\min}_{R,\rho} \left\{\chi^2 (R,\rho) \right\} =\min_{R,\rho} \left(\frac{A_{exp}-A_{sim}}{\sigma_{A_{exp}}}\right)^2 
 \end{equation}
 %\noindent
-where $\sigma_{A_{exp}}={A_{exp}}^{-1}$ is the error of the experimental data of the absorbance.%\footnote{We choose this value for the error in order to obtain a better agreement between data and simulation by giving a different weight to the spectrum values.}
+where $\sigma_{A_{exp}}={A_{exp}}^{-1}$ is the error of the experimental data of the absorbance (i.e. $A_{exp}$), while $A_{sim}$ is the simulated absorbance.%\footnote{We choose this value for the error in order to obtain a better agreement between data and simulation by giving a different weight to the spectrum values.}
 
 From the first part of the optical analysis we were able to obtain the best value for $\rho$, namely $\rho^*$, by minimizing the $\chi^2$ function.
 
@@ -273,7 +274,7 @@ We proceeded then by repeating the steps previously described by fixing the valu
 \label{sec:risultati}
 
 In this section we report the results obtained in the analysis presented in \textbf{Section \ref{sec:optic_char}.1}.
-In the first place we verified the validity of the non-interacting nanoparticles assumption by computing the filling fraction $f=\rho^* V$. This approximation is valid if $f<1$ and since we estimated the filling fractions as
+In the first place we verified the validity of the non-interacting nanoparticles assumption by computing the filling fraction $f=\rho^* V$. This approximation is valid if $f\ll 1 $ and since we estimated the filling fractions as
 \[f=2.16\cdot 10^{-6}\]
 we can state that the contribution due to interacting nanoparticles is negligible.
 
@@ -283,13 +284,13 @@ In order to simulate the spectrum of the couple $(R,\rho)$ we fixed the medium d
 \noindent
 namely to be equal to the square of the refractive index of water.
 
-The simulated spectrum of the couple ($R,\rho$) is reported in \textbf{Figure \ref{fig:r_rho}a}. As shown in the plot, the agreement between the experimental and the simulated data is not good, especially for low wavelengths.
+The simulated spectrum of the couple ($R,\rho$) is reported in \textbf{Figure \ref{fig:r_rho}a}. As shown in the plot, the agreement between the experimental and the simulated data is not good, especially for the lower wavelengths.
 
 In \textbf{Figure \ref{fig:r_rho}b} is instead reported the $\chi^2$ map as a function of $R$ and $\rho$ in order to verify the stability of the fit parameters. We can observe that we do not get an unique minimum for the $\chi^2$: the presence of an elongated region with low $\chi^2$ may be probably due to the correlation between $R$ and $\rho$ in the absorbance formula reported in \textbf{Equation \ref{eq:ass}}.
 
-\textbf{Figure \ref{fig:r_epsm}a} reports instead the fit between $R$ and $\epsilon_m$ after setting 
+\textbf{Figure \ref{fig:r_epsm}a} reports instead the fit between $R$ and $\epsilon_m$ after that we had set 
 
-\[\rho = \rho^*=9.909\cdot10^{-9}\,\nano\meter^{-3}.\]
+\[\rho \overset{!}{=} \rho^*=9.909\cdot10^{-9}\,\nano\meter^{-3}.\]
 
 \noindent
 The second plot shows that the agreement with the experimental spectrum is improved, even if the fit remains quite poor in the $\lambda \in [400:475]\, \nano\meter$ region due to the high value of the absorbance.
@@ -305,7 +306,7 @@ To sum up, the best values for the three parameters ($R$, $\rho$, $\epsilon_m$) 
 \end{align*}
 
 \noindent
-The uncertainties associated to these values are coherent with the two $\chi^2$ maps but they result in very high error values, preventing the best fit parameters ($R^*, \rho^*, \epsilon_m^*$) to be good reliable values. 
+The uncertainties associated to these values are coherent with the two $\chi^2$ maps but they result in very high error values (in particular the one associated to the nanoparticles' density), preventing the best fit parameters ($R^*, \rho^*, \epsilon_m^*$) to be good reliable values. 
 
 We can perform a compatibility test between $\epsilon_m^*$ and $n_{water}^2$, which can be estimated as $\Tilde{\lambda}_{\epsilon_m}=1.1$, which shows a good (but not optimal) compatibility between our estimate and the true value of the dielectric constant of the medium.
 
@@ -349,10 +350,10 @@ The results presented in \textbf{Section \ref{sec:risultati}} can be improved by
 Gans' theory considers nanoparticles to be oblate ellipsoids\footnote{In this way it's possible to drop the spherical Au nanoparticles assumption.} introducing a new parameter $e$ called eccentricity.
 
 \noindent
-The new model computes the extinction cross-section as an ensemble of ellipsoidal particles with spatial random orientation:
+The new model computes the extinction cross-section as an ensemble of ellipsoidal particles with spatial random orientation \cite{mattei}:
 
 \begin{equation*}
-\sigma_{ext}^{\text{Gans}} = \frac{\omega}{3c} \epsilon_m^{3/2}V_{0} \sum^{3}_{j=1}{\frac{\epsilon_2/L_j^2}{[\epsilon_1 + \epsilon_m(1-L_j)/L_j]^2 + \epsilon_2^2}}
+\sigma_{ext}^{\text{Gans}} = \frac{\omega}{3c} \epsilon_m^{3/2}V_{0} \sum^{3}_{j=1}{\frac{\epsilon_2/L_j^2}{[\epsilon_1 + \epsilon_m(1-L_j)/L_j]^2 + (\epsilon_2)^2}}
 \end{equation*}
 
 \noindent
@@ -364,13 +365,13 @@ L_{2}&=L_{3}=\frac{1-L_{1}}{2}
 
 \paragraph{Results}
 Given the data presented in \textbf{Section \ref{sec:SEM}} (i.e. the average of the major
-and minor axis of the two dimensional representation of the particles $a_1$ and $a_2$\footnote{We assumed that the third axis $a_3=a_2$.}) we were able to estimate the aspect ratio $a_R$ as  $a_1/a_2$ resulting in:
+and minor axis of the two dimensional representation of the particles $a_1$ and $a_2$\footnote{We assumed that the third axis $a_3=a_2$, s.t. $a_1>a_2=a_3$.}) we were able to estimate the aspect ratio $a_R$ as  $a_1/a_2$ resulting in:
 
-\[a_R=1.298\pm 0.008\]
+\[a_R=1.30\pm 0.01\]
 
 At this point we were able to compute\footnote{The error associated to estimated measurement of the eccentricity has been computed by means of the propagation of errors.} the eccentricity $e$ and to use Gans' model, namely:
 
-\[e:=\sqrt{1-\left(\frac{1}{a_R}\right)^2} = 0.6378 \pm 0.0009\]
+\[e:=\sqrt{1-\left(\frac{1}{a_R}\right)^2} = 0.638 \pm 0.007\]
 
 We can notice from \textbf{Figure \ref{fig:r_rho_GANS}a} and \textbf{Figure \ref{fig:r_epsm_GANS}a } that the fit quality is slightly improved with respect to the plots shown in \textbf{Figure \ref{fig:r_epsm}a} and \textbf{Figure \ref{fig:r_epsm}a}. In particular, the experimental values of absorbance in the lower frequency range ($\lambda \in [400:475]\, \nano\meter$) are better represented by the simulation with respect to the ones in \textbf{Section \ref{sec:risultati}}.
 
@@ -379,13 +380,13 @@ The better agreement between the experimental spectrum and the model may be due 
 After performing the Gans analysis, the parameters which describe better our physical system are:
 
 \begin{align*}
-    R^*_{G}&=(7.0\pm 0.9)\,\nano\meter \\
+    R^*_{G}&=(6.4\pm 0.9)\,\nano\meter \\
     \rho^*_{G}&=(2.0\pm 0.3)\cdot 10^{-9}\,\nano\meter^{-3} \\
     \epsilon_{m,G}^* &= 1.9 \pm 0.1
 \end{align*}
 As the value of $R^*_G$ increased with respect to $R^*$, consequently the value of $\rho_G^*$ is lower than $\rho^*$.
 
-In the end, we can notice that the best value of $\epsilon_m$ improved: $\sqrt{\epsilon_{m,G} ^*} := n_{water}^*$ differs from the true value $n_{water,G}=1.33$ by $4\%$.
+In the end, we can notice that the best value of $\epsilon_m$ improved: $\sqrt{\epsilon_{m,G} ^*} := n_{water,G}^*$ differs from the true value $n_{water}=1.33$ by $4\%$.
 
 \end{multicols}
 \newpage
@@ -423,16 +424,106 @@ In the end, we can notice that the best value of $\epsilon_m$ improved: $\sqrt{\
 \section{SEM Analysis}
 \label{sec:SEM}
 
-\subsection{Method}
+\subsection{Imaging with SEM}
+\label{sec:synthesis}
+\noindent
+Nano-sized images of the gold nanoparticles in the silicon substrate were collected using a Scanning Electron Microscope (SEM) which exploits the emission of secondary and backscattering electrons to generate the image.
+
+The image shown in \textbf{Figure \ref{fig:semss}} was used to perform a measurement of the area, major axis and minor axis of the nanoparticles, assuming that their projection on the image plane is elliptical.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{image/data/imaging.jpg}
+    \caption{Imaging obtained with SEM.}
+    \label{fig:semss}
+\end{figure}
+
+After obtaining this image, ImageJ software was used to extract the required data. Groups of nanoparticles that failed to distinguish as individual particles were excluded from subsequent measurements. Two pixels have been chosen as the maximum error on the lengths, which is then converted into nanometers and used for the calculation of subsequent values.
+Subsequently, the effective diameter of the nanoparticle was obtained from the area value of the i-th particle using the following equation:
+\begin{align*}
+D_{eff,i}=2\sqrt\frac{A_{i}}{\pi}
+\end{align*}
+
+where $A_i$ is the area of the i-th particle and $D_{eff,i}$ is the effective diameter of i-th particle. Notice that the error on the single diameter will depend on the value of the area and its i-th error using propagation of errors equation.
+
+In conclusion it was calculated the aspect ratio of i-th particle as the ratio of major axis to minor axis:
+\begin{align*}
+a_{R,i}=\frac{a_{1,i}}{a_{2,i}}
+\end{align*}
 
 \subsection{Results}
+After having calculated all the effective diameters, an histogram of the nanoparticles' diameters distribution is constructed and is then fitted with a lognormal distribution that gives us the most frequent value of the diameter of the nanoparticles and its dispersion.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{image/data/fitlognorm.jpg}
+    \caption{Histogram of diameter normalized at probability distribution function. Red: Lognormal fit. Yellow: Gaussian fit.}
+    \label{fig:diameter_distribution}
+\end{figure}
+
+\gio{secondo me sarebbe carino vedere anche le labels delle figure, in particolare per figura 9. Secondo me i due fit non si vedono bene, forse sarebbe meglio ingrandirli}
+
+The fit lognormal results give us the following diameter:
+\begin{align*}
+\mean{D}=(22 \pm 1) \, \nano\meter
+\end{align*}
+
+Then $\sqrt[3]{\mean{D^3}}$ was calculated using the formula of the average, weighted with the errors of the single diameter, the result of which leads to:
+
+\begin{align*}
+\sqrt[3]{\mean{D^3}}=(21.3 \pm 0.3) \, \nano\meter
+\end{align*}
+
+Comparing the two diameters with the compatibility test:
+\begin{align*}
+\lambda=\frac{|\sqrt[3]{\mean{D^3}}-\mean{D}|}{\sqrt{\sigma_{\mean{D^{3}}}^{2}+\sigma_{\mean{D}}^{2}}}\approx0.7
+\end{align*}
+
+\noindent
+where $\sigma_{\mean{D^3}}$ is the error of $\sqrt[3]{\mean{D^3}}$. The value 0.7 corresponds to an optimal compatibility.
+
+The aspect ratio is also calculated by simply exploiting the average. The result obtained is:
+\[a_R=1.30\pm 0.01\]
+This value was also used in \textbf{Section 3.2.1} for the correction, using Gans theory, of the radius value obtained with the minimum chi squared. 
+
+In conclusion, the distribution of the aspect ratios is shown for completeness:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{image/data/a_r distribution.jpg}
+    \caption{Histogram of aspect ratio normalized at probability distribution function.}
+    \label{fig:aspect_ratio}
+\end{figure}
+
 
 \section{Conclusions}
 \label{sec:conclusions}
+We characterized the gold nanoparticles using three different methods: Optical Spectroscopy, X-rays and Scanning Electron Microscopy.
+
+For every method we computed the average size of the synthesized nanoparticles. The results of our work all agree on the order of magnitude of the nanoparticles' radii but their values (presented in \textbf{Table \ref{sec:risultati}}) are quite different, making our estimates incompatible with each other.
+
+Concerning the optical analysis, the hypothesis assumed in \textbf{Section \ref{sec:optic_char}} are quite strong and in particular considering the nanoparticles' shape as spherical. For this reason the value of the radius obtained using Gans' theory ($R^*_{G}$) improves the result of the Mie theory analysis, making it possible to approach the value of $\mean{R}$ obtained by the SEM analysis (which we consider to be the reliable measure among the three methods). 
+
+If the radii of the previous sections are compared with the radius obtained using the measurement with the SEM it is clear that there is an enormous difference between the values obtained which makes them incompatible. The first explanation could be due to the inaccuracy of the correction of \[\Gamma(R)=\Gamma_{bulk}+k \frac{v_{F}}{R}\] as the second contribution was calculated assuming the spherical nanoparticles (da capire). The second explanation ....
+
+\gio{sarebbe bello aggiungere una tabellina finale con i tre valori dei raggi che abbiamo trovato}
+
+\begin{table}[H]
+    \centering
+    \caption{Values of the characteristic length of the nanoparticles obtained using the three different methods presented in this work.
+    \gio{L'errore è lo stesso perché considero l'errore come la sigma della distribuzione lognormale che non cambia se moltiplico per 2 ogni valore}}
+    \begin{tabular}{cccc}
+    \toprule
+      & \textbf{GANS}\,(\nano\meter)   & \textbf{XRD}\,(\nano\meter)  & \textbf{SEM}\,(\nano\meter)  \\
+    \midrule
+     $\mean{R}$ & $6.4\pm 0.9 $   & $?? \pm ?$ & $11 \pm 1$ \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:results}
+\end{table}
 
 \clearpage
-
-\printbibliography
 \end{multicols}
+\printbibliography
+
 
 \end{document}
